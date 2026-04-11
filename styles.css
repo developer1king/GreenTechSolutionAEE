@@ -1,0 +1,58 @@
+      :root {
+        --verde-eco: #28a745;
+        --fondo: #f4fdf4;
+        --texto: #1a1a1a;
+      }
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        background-color: var(--fondo);
+        color: var(--texto);
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      .hero {
+        /* Degradado en lugar de imagen pesada para reducir emisiones de carbono */
+        background: linear-gradient(135deg, #1e7e34 0%, #28a745 100%);
+        color: white;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+      }
+      h1 {
+        font-size: clamp(2.5rem, 8vw, 5rem);
+        margin: 0;
+        letter-spacing: -1px;
+      }
+      p {
+        font-size: 1.25rem;
+        opacity: 0.9;
+      }
+      .btn-eco {
+        background-color: white;
+        color: #1e7e34;
+        border: none;
+        padding: 1rem 2.5rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: transform 0.2s;
+        margin-top: 2rem;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      }
+      .btn-eco:hover {
+        transform: scale(1.05);
+      }
+      footer {
+        background: #1a1a1a;
+        color: #888;
+        text-align: center;
+        padding: 1.5rem;
+        font-size: 0.9rem;
+      }
