@@ -1,4 +1,4 @@
-Aquí tienes el contenido listo en formato Markdown limpio:
+
 
 ```md
 # GreenTech Solutions - Auditoría y Optimización de Software Verde
