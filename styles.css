@@ -13,7 +13,6 @@
         min-height: 100vh;
       }
       .hero {
-        /* Degradado en lugar de imagen pesada para reducir emisiones de carbono */
         background: linear-gradient(135deg, #1e7e34 0%, #28a745 100%);
         color: white;
         flex: 1;
